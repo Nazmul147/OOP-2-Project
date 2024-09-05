@@ -1,0 +1,409 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9A4D95EB-C8F8-44DA-8E58-5E24A2703086}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FinalProject</RootNamespace>
+    <AssemblyName>FinalProject</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BillingSystemDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingSystemDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BillingSystemDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingSystemDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BillingSystemDataSet10.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingSystemDataSet10.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BillingSystemDataSet11.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingSystemDataSet11.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BillingSystemDataSet12.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingSystemDataSet12.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BillingSystemDataSet13.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingSystemDataSet13.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BillingSystemDataSet14.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingSystemDataSet14.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BillingSystemDataSet15.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingSystemDataSet15.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BillingSystemDataSet16.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingSystemDataSet16.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BillingSystemDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingSystemDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BillingSystemDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingSystemDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BillingSystemDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingSystemDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BillingSystemDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingSystemDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BillingSystemDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingSystemDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BillingSystemDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingSystemDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BillingSystemDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingSystemDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BillingSystemDataSet9.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingSystemDataSet9.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="BillingSystemDataSetEmp.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>BillingSystemDataSetEmp.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DataAccess.cs" />
+    <Compile Include="FormData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormData.Designer.cs">
+      <DependentUpon>FormData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEmployeeData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEmployeeData.Designer.cs">
+      <DependentUpon>FormEmployeeData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="information.Designer.cs">
+      <DependentUpon>information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormLogin.Designer.cs">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormData.resx">
+      <DependentUpon>FormData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEmployeeData.resx">
+      <DependentUpon>FormEmployeeData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="information.resx">
+      <DependentUpon>information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormLogin.resx">
+      <DependentUpon>FormLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="BillingSystemDataSet.xsc">
+      <DependentUpon>BillingSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillingSystemDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BillingSystemDataSet.xss">
+      <DependentUpon>BillingSystemDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet1.xsc">
+      <DependentUpon>BillingSystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillingSystemDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BillingSystemDataSet1.xss">
+      <DependentUpon>BillingSystemDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet10.xsc">
+      <DependentUpon>BillingSystemDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet10.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillingSystemDataSet10.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BillingSystemDataSet10.xss">
+      <DependentUpon>BillingSystemDataSet10.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet11.xsc">
+      <DependentUpon>BillingSystemDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet11.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillingSystemDataSet11.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BillingSystemDataSet11.xss">
+      <DependentUpon>BillingSystemDataSet11.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet12.xsc">
+      <DependentUpon>BillingSystemDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet12.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillingSystemDataSet12.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BillingSystemDataSet12.xss">
+      <DependentUpon>BillingSystemDataSet12.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet13.xsc">
+      <DependentUpon>BillingSystemDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet13.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillingSystemDataSet13.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BillingSystemDataSet13.xss">
+      <DependentUpon>BillingSystemDataSet13.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet14.xsc">
+      <DependentUpon>BillingSystemDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet14.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillingSystemDataSet14.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BillingSystemDataSet14.xss">
+      <DependentUpon>BillingSystemDataSet14.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet15.xsc">
+      <DependentUpon>BillingSystemDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet15.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillingSystemDataSet15.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BillingSystemDataSet15.xss">
+      <DependentUpon>BillingSystemDataSet15.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet16.xsc">
+      <DependentUpon>BillingSystemDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet16.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillingSystemDataSet16.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BillingSystemDataSet16.xss">
+      <DependentUpon>BillingSystemDataSet16.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet2.xsc">
+      <DependentUpon>BillingSystemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillingSystemDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BillingSystemDataSet2.xss">
+      <DependentUpon>BillingSystemDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet3.xsc">
+      <DependentUpon>BillingSystemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillingSystemDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BillingSystemDataSet3.xss">
+      <DependentUpon>BillingSystemDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet4.xsc">
+      <DependentUpon>BillingSystemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillingSystemDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BillingSystemDataSet4.xss">
+      <DependentUpon>BillingSystemDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet5.xsc">
+      <DependentUpon>BillingSystemDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillingSystemDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BillingSystemDataSet5.xss">
+      <DependentUpon>BillingSystemDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet6.xsc">
+      <DependentUpon>BillingSystemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillingSystemDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BillingSystemDataSet6.xss">
+      <DependentUpon>BillingSystemDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet7.xsc">
+      <DependentUpon>BillingSystemDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillingSystemDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BillingSystemDataSet7.xss">
+      <DependentUpon>BillingSystemDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet8.xsc">
+      <DependentUpon>BillingSystemDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillingSystemDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BillingSystemDataSet8.xss">
+      <DependentUpon>BillingSystemDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet9.xsc">
+      <DependentUpon>BillingSystemDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSet9.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillingSystemDataSet9.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BillingSystemDataSet9.xss">
+      <DependentUpon>BillingSystemDataSet9.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSetEmp.xsc">
+      <DependentUpon>BillingSystemDataSetEmp.xsd</DependentUpon>
+    </None>
+    <None Include="BillingSystemDataSetEmp.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>BillingSystemDataSetEmp.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="BillingSystemDataSetEmp.xss">
+      <DependentUpon>BillingSystemDataSetEmp.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BCD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\asa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
